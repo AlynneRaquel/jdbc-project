@@ -32,6 +32,7 @@ public class Program {
 			System.out.println("Done! Rows affected: " + rowsAffected);
 		}
 		catch (SQLException e) {
+			//capturando erro ao deletar registro com vínculo em chave estrangeira e tratando da DBIntegrityException
 			throw new DbIntegrityException(e.getMessage());
 		}
 		finally {
