@@ -7,6 +7,9 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Properties;
+
+import database.DbException;
+
 import java.sql.Statement;
 
 public class DB {

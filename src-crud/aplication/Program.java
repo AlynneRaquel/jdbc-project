@@ -8,8 +8,8 @@ import java.sql.Statement;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-import db.DB;
-import db.DbIntegrityException;
+import database.DB;
+import database.DbIntegrityException;
 
 public class Program {
 
