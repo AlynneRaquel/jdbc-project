@@ -65,7 +65,7 @@ public class DB {
 		}
 	}
 	
-	//fechando o ResultSet -- Evitando exceções no pg principal, fecha as coneções aqui na classe de conexão
+	//fechando o ResultSet -- Evitando exceções no pg principal, fecha as conexões aqui na classe de conexão
 	public static void closeResultSet(ResultSet rs) {
 		if (rs != null) {
 			try {
